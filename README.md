@@ -11,3 +11,6 @@ The API has two routes.
 
 # URL
 This API is already deployed on the Heroku Server. The base URL for the deployed API is: https://sentijouro-mvrvw-analysis-api.herokuapp.com/
+
+# Model Information
+You can find the model I implemented and used in this API here: https://www.kaggle.com/dwaipy/metacritic-inference-script. The model supports a word limit of 150 words.
