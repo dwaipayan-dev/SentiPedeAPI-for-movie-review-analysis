@@ -8,3 +8,6 @@ The API has two routes.
 2. '/predict': Intermediate route used to return the result's view.
 
 3. '/predict-api': This is a route that can be used by developers to send a review via post request. The function mapped to this route returns the score of the review along with the status of the request. Make sure post request body is of type json. Ajax by default sends form type data. So specify content-type as json OR in the function change request.get_json() to request.form.
+
+# URL
+This API is already deployed on the Heroku Server. The base URL for the deployed API is: https://sentijouro-mvrvw-analysis-api.herokuapp.com/
