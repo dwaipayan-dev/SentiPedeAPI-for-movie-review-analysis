@@ -1,5 +1,5 @@
 # SentiPedeAPI-for-movie-review-analysis
-This is a flask API I made where you can get a score on a given movie review on a scale of 0(Extremely bad) to 10(Extremely good). This API is powered by an NLP model based on LSTM word-based model architecture and supports a word limit of 150 words.  The val AUC of the model is 0.85 and you can find it in my Keras profile. You need only worry about the word limit as the api transforms the input to model appropriate representation
+This is a flask API I made where you can get a score on a given movie review on a scale of 0(Extremely bad) to 10(Extremely good). This API is powered by an NLP model based on LSTM word-based model architecture and supports a word limit of 150 words.  The val AUC of the model is 0.85 and you can find it in my Keras profile. You need only worry about the word limit as the api transforms the input to model appropriate representation. The model is trained on 2.5 lakh sentences.
 
 # Routes 
 The API has two routes.
